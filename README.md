@@ -26,9 +26,8 @@ The ESP32-CAM comes with an integrated camera module, which makes it easy to cap
 It is equipped with Wi-Fi connectivity, allowing it to connect to your local network.
 
 
+https://github.com/Parvin55/AGISEN/assets/125869190/f46bdca0-1510-4f5b-950b-f38208c9dcf3
 
 
-
-https://github.com/Parvin55/AGISEN/assets/125869190/c5bd9462-4f1b-49cc-b4ba-b0288a6d080e
 
 
