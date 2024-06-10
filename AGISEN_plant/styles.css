@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Proxima Nova Font";
+    src: url("fonts/Proxima Nova Font.otf");
+}
+
+body{
+    background: linear-gradient(252.44deg, #0D51EB 0%, #2899FF 100%);
+}
+
+.header{
+    height: 70px;
+    width: 100%;
+    background: linear-gradient(271.78deg, #03045E 0%, #353684 51%, #41428D 100.93%);
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+} 
+
+.text > h1{
+    font-family: "Proxima Nova Font";
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 100px;
+    color: #FFFFFF;
+    text-align: center;
+    text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.anchor{
+    text-align: center;
+}
+
+  
+.wrapper {
+    width: 50%;
+    height: 50%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Proxima Nova Font";
+    display: inline-block;
+    font-size: 30px;
+    width: 200px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+  
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+  
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.nav-color{
+    background: linear-gradient(271.78deg, #03045E 0%, #353684 51%, #41428D 100.93%);
+}
+
+.margin{
+    margin-top: 55px;
+}
+
+.margin-right{
+    margin-right: 55px;
+}
+
+.text > h2{
+    font-family: "Proxima Nova Font";
+    font-weight: 700;
+    font-size: 30px;
+    color: greenyellow;
+    text-align: center;
+    text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.nav-item > a{
+    font-family: "Proxima Nova Font";
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.margin-right{
+    margin-right: 80%;
+}
+
+.upload-container {
+    text-align: center;
+}
+#file-input {
+    display: none;
+}
+#preview {
+    width: 300px;
+    height: 300px;
+    border: 2px dashed #aaa;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+#preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#upload-btn {
+    padding: 10px 20px;
+    background-color:limegreen;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#upload-btn:hover {
+    background-color:palegreen;
+}
